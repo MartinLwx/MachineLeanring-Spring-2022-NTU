@@ -3,7 +3,7 @@
 1. Data Preprocessing: Extract MFCC features from raw waveform (already done by TAs!)
 2. Classification: Perform framewise phoneme classification using pre-extracted MFCC features
 
-The kaggle link: <https://www.kaggle.com/competitions/ml2022spring-hw1/overview>
+The kaggle link: <https://www.kaggle.com/competitions/ml2022spring-hw2/overview>
 
 ## Data
 
@@ -18,11 +18,7 @@ The kaggle link: <https://www.kaggle.com/competitions/ml2022spring-hw1/overview>
 
 - Label: `41` classes, each class represents a phoneme
 
-
-
 > The dataset is too big to upload to the github.
-
-
 
 ## Grading
 
@@ -39,7 +35,5 @@ Finally, I achieved the strong baseline with **Private(0.75510) && Public(0.7577
 - `nn.Dropout` to do regularizations.
 - Add more hidden layers. Trust deep network : )
 - Hyperparameters tuning. I found that the `concat_nframes` will have a greater impact on the training results. 
-
-
 
 The training loss and validation loss are still decreasing. I may get better results if I increase the `epochs`. But I am satisfied with passing the strong baseline though.

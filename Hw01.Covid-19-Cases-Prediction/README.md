@@ -25,7 +25,7 @@ The kaggle link: <https://www.kaggle.com/competitions/ml2022spring-hw1/overview>
 
 ## 🧐 What I did
 
-Finally, I achieved the strong baseline with Private(1.05047) && Public(1.01159). I used the following methods:
+Finally, I achieved the strong baseline with **Private(1.05047) && Public(1.01159)**. I used the following methods:
 
 - I use `f_regression` in the `scikit-learn` package to choose the *important* features.
 - I use `AdamW` instead of the default `SGD`.
